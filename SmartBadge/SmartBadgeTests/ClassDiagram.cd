@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Class Name="SmartBadgeTests.Packet">
+    <Position X="0.5" Y="0.5" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAABAAAAAAAAAAAAAAACAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>SmartBadgeStatistics.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SmartBadgeTests.Detail">
+    <Position X="4" Y="0.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAEAAAAAA=</HashCode>
+      <FileName>SmartBadgeStatistics.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SmartBadgeTests.Flattened">
+    <Position X="7.25" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACCA=</HashCode>
+      <FileName>SmartBadgeStatistics.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SmartBadgeTests.Filtered">
+    <Position X="9.75" Y="0.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAIAAAAAAAAA=</HashCode>
+      <FileName>SmartBadgeStatistics.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SmartBadgeTests.Statistic">
+    <Position X="5.5" Y="4.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQQAAAA=</HashCode>
+      <FileName>SmartBadgeStatistics.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SmartBadgeTests.SmartBadgeStatistics">
+    <Position X="0.5" Y="4.25" Width="4.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAQAAAAA=</HashCode>
+      <FileName>SmartBadgeStatistics.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="SmartBadgeTests.IMQTT">
+    <Position X="0.5" Y="2.5" Width="4.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAA=</HashCode>
+      <FileName>SmartBadgeStatistics.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
