@@ -12,6 +12,8 @@ Also, assume that the feed supports below interface.
 
 I have designed a **Statistics** module to Count the Smart Badges by Area.
 
+This module queries the feed and computes the count.
+
 ![Statistics module](https://github.com/VeritasSoftware/SmartBadge/blob/master/Module.jpg)
 
 The **Unit Test project** tests this module.
