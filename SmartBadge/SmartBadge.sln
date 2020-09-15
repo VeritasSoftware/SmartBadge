@@ -13,6 +13,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		..\README.md = ..\README.md
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmartBadge.Statistics", "SmartBadge.Statistics\SmartBadge.Statistics.csproj", "{71AF0B63-6284-4E63-BEDB-AC7F7F7C4418}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,6 +25,10 @@ Global
 		{9EBECC42-8104-4999-896B-5344CA57D961}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9EBECC42-8104-4999-896B-5344CA57D961}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9EBECC42-8104-4999-896B-5344CA57D961}.Release|Any CPU.Build.0 = Release|Any CPU
+		{71AF0B63-6284-4E63-BEDB-AC7F7F7C4418}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71AF0B63-6284-4E63-BEDB-AC7F7F7C4418}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71AF0B63-6284-4E63-BEDB-AC7F7F7C4418}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71AF0B63-6284-4E63-BEDB-AC7F7F7C4418}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
