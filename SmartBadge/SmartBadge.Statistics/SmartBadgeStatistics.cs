@@ -14,13 +14,13 @@ namespace SmartBadge.Statistics
     /// </summary>
     public class SmartBadgeStatistics : ISmartBadgeStatistics
     {
-        IMQTT _feed;
+        MQTT _feed;
 
         /// <summary>
         /// Constructor
         /// </summary>
         /// <param name="feed">The IMQTT feed</param>
-        public SmartBadgeStatistics(IMQTT feed)
+        public SmartBadgeStatistics(MQTT feed)
         {
             _feed = feed;
         }

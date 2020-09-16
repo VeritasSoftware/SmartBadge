@@ -1,41 +1,41 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
-  <Class Name="SmartBadgeTests.Packet">
+  <Class Name="SmartBadge.Statistics.Packet">
     <Position X="0.5" Y="0.5" Width="3" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAABAAAAAAAAAAAAAAACAAAAAQAAAAAAAAA=</HashCode>
       <FileName>Models.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="SmartBadgeTests.Detail">
+  <Class Name="SmartBadge.Statistics.Detail">
     <Position X="4" Y="0.5" Width="2.75" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAEAAAAAA=</HashCode>
       <FileName>Models.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="SmartBadgeTests.Flattened">
+  <Class Name="SmartBadge.Statistics.Flattened">
     <Position X="7.25" Y="0.5" Width="2" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACCA=</HashCode>
       <FileName>Models.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="SmartBadgeTests.Filtered">
+  <Class Name="SmartBadge.Statistics.Filtered">
     <Position X="9.75" Y="0.5" Width="2.75" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAIAAAAAAAAA=</HashCode>
       <FileName>Models.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="SmartBadgeTests.Statistic">
+  <Class Name="SmartBadge.Statistics.Statistic">
     <Position X="5.5" Y="4.25" Width="2.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQQAAAA=</HashCode>
       <FileName>Models.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="SmartBadgeTests.SmartBadgeStatistics">
+  <Class Name="SmartBadge.Statistics.SmartBadgeStatistics">
     <Position X="0.5" Y="4.25" Width="4.5" />
     <Compartments>
       <Compartment Name="Fields" Collapsed="true" />
@@ -46,11 +46,11 @@
     </TypeIdentifier>
     <Lollipop Position="0.2" />
   </Class>
-  <Interface Name="SmartBadgeTests.IMQTT">
+  <Interface Name="SmartBadge.Statistics.IMQTT">
     <Position X="0.5" Y="2.5" Width="4.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAA=</HashCode>
-      <FileName>IMQTT.cs</FileName>
+      <FileName>MQTT.cs</FileName>
     </TypeIdentifier>
   </Interface>
   <Font Name="Segoe UI" Size="9" />

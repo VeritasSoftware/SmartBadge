@@ -12,21 +12,21 @@ namespace SmartBadgeTests
         [Fact]
         public void SmartBadgeCountByArea()
         {
-            var mockMQTT = new Mock<IMQTT>();
+            var dt = DateTime.UtcNow;
 
-            mockMQTT.Setup(x => x.GetPackets(It.IsAny<DateTime>(), It.IsAny<DateTime>()))
-                    .Returns(new List<Packet>
+            var packets = new List<Packet>
                     {
                         new Packet
                         {
                             GatewayMacAddress ="1",
+                            CreatedOn = dt,
                             Details = new List<Detail>
                             {
                                 //Duplicate
                                 new Detail
                                 {
                                     BeaconMacAddress = "100",
-                                    StrengthOfSignal = 5                                    
+                                    StrengthOfSignal = 5
                                 },
                                 new Detail
                                 {
@@ -38,6 +38,7 @@ namespace SmartBadgeTests
                         new Packet
                         {
                             GatewayMacAddress ="2",
+                            CreatedOn = dt,
                             Details = new List<Detail>
                             {
                                 //Duplicate
@@ -52,12 +53,28 @@ namespace SmartBadgeTests
                                     StrengthOfSignal = 8
                                 }
                             }
+                        },
+                        new Packet
+                        {
+                            GatewayMacAddress ="3",
+                            CreatedOn = dt.AddDays(-1),
+                            Details = new List<Detail>
+                            {                                
+                                new Detail
+                                {
+                                    BeaconMacAddress = "400",
+                                    StrengthOfSignal = 5
+                                }
+                            }
                         }
-                    });
+                    };
+
+            var mockMQTT = new Mock<MQTT>(packets);
+            mockMQTT.CallBase = true;
 
             var statistics = new SmartBadgeStatistics(mockMQTT.Object);
 
-            var smartBadgeCountInArea = statistics.CountSmartBadgesByArea(DateTime.Now);
+            var smartBadgeCountInArea = statistics.CountSmartBadgesByArea(dt);
 
             Assert.True(smartBadgeCountInArea.Count() == 2);
             var area2 = smartBadgeCountInArea.First();
