@@ -29,20 +29,31 @@
     </TypeIdentifier>
   </Class>
   <Class Name="SmartBadge.Statistics.Statistic">
-    <Position X="5.5" Y="4.25" Width="2.5" />
+    <Position X="5.5" Y="4.75" Width="2.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQQAAAA=</HashCode>
       <FileName>Models.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="SmartBadge.Statistics.SmartBadgeStatistics">
-    <Position X="0.5" Y="4.25" Width="4.5" />
+    <Position X="0.5" Y="4.75" Width="4.5" />
     <Compartments>
       <Compartment Name="Fields" Collapsed="true" />
     </Compartments>
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAQAAAAA=</HashCode>
       <FileName>SmartBadgeStatistics.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="SmartBadge.Statistics.MQTT">
+    <Position X="5.25" Y="2.5" Width="4.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQABAAAAAAAAAA=</HashCode>
+      <FileName>MQTT.cs</FileName>
     </TypeIdentifier>
     <Lollipop Position="0.2" />
   </Class>
