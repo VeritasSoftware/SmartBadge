@@ -42,7 +42,7 @@ namespace SmartBadge.Statistics
                                                  .Select(x => new Filtered
                                                  {
                                                      BeaconMacAddress = x.Key,
-                                                     Flattened = x.Aggregate((y1, y2) => (y1.Detail.BeaconMacAddress == y2.Detail.BeaconMacAddress) && (y1.Detail.StrengthOfSignal > y2.Detail.StrengthOfSignal) ? y1 : y2)
+                                                     Flattened = x.Aggregate((y1, y2) => (y1.Detail.StrengthOfSignal > y2.Detail.StrengthOfSignal) ? y1 : y2)
                                                  });
 
             var countInArea = filteredByMaxStrength.GroupBy(x => x.Flattened.Packet.GatewayMacAddress)
